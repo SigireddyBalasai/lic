@@ -1,6 +1,8 @@
 <h1 align="center">lic</h1>
 
-![demo](**https://raw.githubusercontent.com/kushvinth/lic/main/assets/demo.gif**)
+<p align="center">
+  <img src="./assets/demo.gif" alt="lic demo" />
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/pypi/v/lic.svg" />
