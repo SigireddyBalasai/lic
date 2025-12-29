@@ -1,4 +1,4 @@
-<h1 align="center">lic</h1>
+# LIC
 
 <p align="center">
   <img src="./assets/demo.gif" alt="lic demo" />
