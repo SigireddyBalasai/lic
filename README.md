@@ -41,12 +41,12 @@ lic
 - Fork the repository
 - Create a branch
   ```bash
-  git checkout -b fix/amazingFix
+  git checkout -b contibution/blah-blah-blah
   ```
 - Commit your changes and push to your branch
   ```bash
-  git commit -m "made an amazingFix"
-  git push origin fix/amazingFix
+  git commit -m "made an blah-blah-blah"
+  git push origin contibution/blah-blah-blah
   ```
 - Open a pull request
 
