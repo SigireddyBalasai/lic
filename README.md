@@ -8,36 +8,56 @@
   <img src="https://img.shields.io/github/license/kushvinth/lic" />
 </p>
 
-### Overview
+## Overview
 
 A minimal, interactive license generator that fetches licenses from GitHub's official API.
 
 No more going to GitHub, creating a file, typing 'LICENSE', picking a license, pushing and pulling. Just run `lic` and generate your license locally.
 
-### Installation
 
-#### Using Brew
+## Installation
+
+### Homebrew (recommended)
 
 ```bash
 brew tap kushvinth/tap
 brew install lic
 ```
 
-#### From source
+This installs `lic` as a globally available CLI.
+
+---
+
+### Install as a uv tool
+
+Requires **Python 3.12+** and **uv**.
+
+```bash
+uv tool install git+https://github.com/kushvinth/lic
+```
+
+Ensure the uv tool path is on your PATH:
+
+```bash
+uv tool ensurepath
+```
+
+### From source
 
 ```bash
 git clone https://github.com/kushvinth/lic.git
 cd lic
-uv install lic
+uv venv
+uv pip install -e .
 ```
 
-### Usage
+## Usage
 
 ```bash
 lic
 ```
 
-### Contributing
+## Contributing
 - Fork the repository
 - Create a branch
   ```bash
