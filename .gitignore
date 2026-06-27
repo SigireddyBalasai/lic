@@ -9,3 +9,6 @@ wheels/
 # Virtual environments
 .venv
 .cache/
+
+# Binary assets (too large for git, stored elsewhere)
+assets/
